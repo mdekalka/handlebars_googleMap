@@ -47,9 +47,9 @@ $(document).ready(function() {
 	// Google map APi
 		function initialize(lati, longi, info) {
 		var mapOptions = {
-    zoom: 6,
+    zoom: 5,
     center: new google.maps.LatLng(lati, longi)
-  	};
+  	}
   	if ($('#map-canvas').length) {
   		map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
   	}
