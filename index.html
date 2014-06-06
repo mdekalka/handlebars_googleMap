@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Handlebars template with Google map API</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+ <div class="map-container">
+ 	<h1>Handlebars template plus Google API map <a href="https://github.com/mdekalka" target="_blank">created by piupiupiu</a></h1>
+ 	<nav class="map-nav">
+ 		<ul>
+ 			<li class="active"><a data-key="uk" href="#">United Kingdom</a></li>
+ 			<li><a data-key="no" href="#">Norway</a></li>
+ 			<li><a data-key="be" href="#">Belarus</a></li>
+ 			<li><a data-key="ge" href="#">Germany</a></li>
+ 			<li><a data-key="sw" href="#">Sweden</a></li>
+ 		</ul>
+ 	</nav>
+ 	<div class="map-container-template">
+ 		<!-- template goes here -->
+ 	</div>
+ 	<div class="google-map" id="map-canvas">
+ 		
+ 	</div>
+ </div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+<script src="js/handlebars-v1.3.0.js"></script>	
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+<script src="js/main.js"></script>
+<script id="country-template" type="text/x-handlebars-template">
+	<ul>
+		<li>{{name}}</li>
+		<li>{{capital}}</li>
+		<li>{{latitude}}</li>
+		<li>{{longitude}}</li>
+		<li>{{info}}</li>
+	</ul>
+	<img src="{{imageURl}}" alt="{{name}}">
+</script>
+
+</body>
+</html>
