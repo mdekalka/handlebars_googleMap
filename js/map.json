@@ -1,0 +1,48 @@
+{
+	"uk": {
+		"name": "United Kingdom",
+		"latitude": 54.953780,
+		"longitude": -2.454554,
+		"info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, labore, similique error laborum quis quia sunt delectus vel quas reiciendis? Beatae odio magnam aperiam sequi unde. Voluptatum aliquam magni labore?",
+		"imageURl": "img/gb.png",
+		"capital": "London",
+		"flag": "uk"
+	},
+	"no": {
+		"name": "Norway",
+		"latitude": 61.376837,
+		"longitude": 9.498571,
+		"info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, esse omnis qui vel saepe sed ut accusamus modi adipisci nisi. Quia dolorem excepturi minima ad suscipit soluta est provident nulla.",
+		"imageURl": "img/no.png",
+		"capital": "Oslo",
+		"flag": "no"
+	},
+	"be": {
+		"name": "Belarus",
+		"latitude": 54.050038,
+		"longitude": 27.486236,
+		"info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, illum delectus non minima vitae obcaecati ipsam praesentium temporibus saepe consectetur. Nam, autem, alias dolorum deserunt maxime impedit iusto sed magnam.",
+		"imageURl": "img/by.png",
+		"capital": "Minsk",
+		"flag": "by"
+	},
+	"ge": {
+		"name": "Germany",
+		"latitude": 51.129769,
+		"longitude": 10.366229,
+		"info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, doloribus, reiciendis, velit reprehenderit illum sequi pariatur aliquam hic doloremque harum beatae dolore voluptatibus qui nostrum tenetur. Fugiat, rem quod adipisci.",
+		"imageURl": "img/de.png",
+		"capital": "Berlin",
+		"flag": "be"
+	},
+	"sw": {
+		"name": "Sweden",
+		"latitude": 62.788937,
+		"longitude": 16.342791,
+		"info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, recusandae, doloremque, assumenda consectetur modi hic eaque laboriosam natus suscipit dicta obcaecati officiis error fugit facilis blanditiis! Tempore illum dolores praesentium.",
+		"imageURl": "img/se.png",
+		"capital": "Stockholm",
+		"flag": "sw"
+	}
+
+}
